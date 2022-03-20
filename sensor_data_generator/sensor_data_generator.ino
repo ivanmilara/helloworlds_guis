@@ -19,8 +19,8 @@ void setup() {
 void loop() {
 
 //Simulate 10 bits signal.
-//Add a random step of -2, +2 
-int step = random (-2, 2); 
+//Add a random step of -3, +3 
+int step = random (-3, 3); 
 //Check values do not go outside 10 bits limit
 value = value + step; 
 if (value > MAX){
