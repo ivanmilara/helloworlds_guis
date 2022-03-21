@@ -54,9 +54,8 @@ class SensorValues (Frame):
         print(self.value)
         self.label_text.set(self.LABEL_TEXT.format(str(self.value)))
         self.update() 
-        self.master.update_idletasks()
         self.master.after(50, self.idle)
-        #self.master.after_idle(self.idle)
+
 
 
 #

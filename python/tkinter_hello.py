@@ -12,7 +12,7 @@ import tkinter as tk # Python 3.x Version
 
 root = tk.Tk()
 
-label = tk.Label(root, text="Hello World!") # Create a text label
-label.pack(padx=20, pady=20) # Pack it into the window
+label = tk.Label(root, text="Hello World!", bg="grey") # Create a text label
+label.pack(padx=20, pady=20, fill='x') # Pack it into the window, that is make it position and make it visible
 
-root.mainloop()
+root.mainloop() #Keep the window visible and running
